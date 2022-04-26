@@ -1,0 +1,161 @@
+@import "variables";
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  @include flexCenter(column);
+  font-family: $ff;
+  padding: 2rem;
+  height: 100vh;
+}
+
+input,
+output {
+  width: 100%;
+  font-size: $fsNumbers;
+  font-family: inherit;
+  text-align: end;
+}
+
+button {
+  font-size: $fsNumbers;
+  font-family: inherit;
+
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+main {
+  @include flexCenter(column);
+  max-width: 450px;
+}
+
+.calc-btn {
+  // background-color: $keyBackground;
+  border: 0;
+  // box-shadow: 00px 4px 3px 0px $keyShadow;
+}
+
+section.header {
+  @include flexCenter(row);
+  justify-content: space-between;
+  width: 100%;
+  // color: $White;
+  h1 {
+    font-size: 2.5em;
+  }
+  .theme-selector {
+    @include flexCenter(row);
+    text-transform: uppercase;
+    gap: 1em;
+  }
+
+  .theme-select {
+    position: relative;
+    width: 5em;
+    display: flex;
+    border-radius: 1em;
+    flex-direction: column;
+  }
+
+  .theme-box {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    bottom: 0%;
+    justify-content: space-between;
+
+    span {
+      height: 3em;
+      width: 1em;
+    }
+  }
+
+  .theme-circle {
+    width: 15px;
+    height: 15px;
+    // background-color: $equalKeyToggle;
+    border-radius: 100%;
+    margin: 0.25rem;
+  }
+}
+
+section.input {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+
+  #display {
+    display: block;
+    position: relative;
+
+    .previous-op {
+      width: 100%;
+      height: 2em;
+      position: absolute;
+      top: 0%;
+      padding: 0.5rem 1.5rem;
+      font-size: 12px;
+      text-align: end;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+
+    input {
+      padding: 1.5rem;
+      border-radius: 0.5rem;
+      border: 0;
+      display: block;
+      word-wrap: break-word;
+      word-break: break-word;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+.inputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1em;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  // background-color: $secondaryBackground;
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .reset-btn,
+  .equals {
+    text-transform: uppercase;
+    grid-column: span 2;
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+
+  a {
+    color: hsl(228, 50%, 79%);
+  }
+}

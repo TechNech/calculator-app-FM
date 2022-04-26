@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap");
+body#theme-1 {
+  background-color: #3a4764;
+  -webkit-transition: 300ms ease-in-out;
+  transition: 300ms ease-in-out;
+}
+
+body#theme-1 button {
+  color: #444b5a;
+  -webkit-transition: 200ms ease-in;
+  transition: 200ms ease-in;
+}
+
+body#theme-1 button:hover {
+  opacity: 0.5;
+}
+
+body#theme-1 button:focus {
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
+}
+
+body#theme-1 .calc-btn {
+  background-color: #eae3dc;
+  -webkit-box-shadow: 0px 4px 3px 0px #b4a597;
+          box-shadow: 0px 4px 3px 0px #b4a597;
+}
+
+body#theme-1 .btn-blue {
+  background-color: #637097;
+  -webkit-box-shadow: 0px 4px 3px 0px #404e72;
+          box-shadow: 0px 4px 3px 0px #404e72;
+  color: white;
+}
+
+body#theme-1 .btn-red {
+  background-color: #d03f2f;
+  -webkit-box-shadow: 0px 4px 3px 0px #93261a;
+          box-shadow: 0px 4px 3px 0px #93261a;
+  color: white;
+}
+
+body#theme-1 section.header {
+  color: white;
+}
+
+body#theme-1 section.header .theme-select {
+  background: #232c43;
+}
+
+body#theme-1 section.header .theme-circle {
+  background-color: #d03f2f;
+}
+
+body#theme-1 section.input #display output {
+  background-color: #232c43;
+  color: white;
+}
+
+body#theme-1 section.input .inputs {
+  background-color: #232c43;
+}
+
+body#theme-1 .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+body#theme-1 .attribution a {
+  color: #afb9e4;
+}
+
+body#theme-2 {
+  background-color: #e6e6e6;
+  -webkit-transition: 300ms ease-in-out;
+  transition: 300ms ease-in-out;
+}
+
+body#theme-2 button {
+  color: #35352c;
+}
+
+body#theme-2 button:hover {
+  opacity: 0.5;
+}
+
+body#theme-2 button:focus {
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
+}
+
+body#theme-2 .calc-btn {
+  background-color: #e5e4e1;
+  -webkit-box-shadow: 0px 4px 3px 0px #a69d91;
+          box-shadow: 0px 4px 3px 0px #a69d91;
+}
+
+body#theme-2 .btn-blue {
+  background-color: #377f86;
+  -webkit-box-shadow: 0px 4px 3px 0px #1b5f65;
+          box-shadow: 0px 4px 3px 0px #1b5f65;
+  color: white;
+}
+
+body#theme-2 .btn-red {
+  background-color: #ca5502;
+  -webkit-box-shadow: 0px 4px 3px 0px #893901;
+          box-shadow: 0px 4px 3px 0px #893901;
+  color: white;
+}
+
+body#theme-2 section.header {
+  color: #35352c;
+}
+
+body#theme-2 section.header .theme-select {
+  background: #d1cccc;
+}
+
+body#theme-2 section.header .theme-circle {
+  background-color: #ca5502;
+}
+
+body#theme-2 section.input #display output {
+  background-color: #d1cccc;
+  color: white;
+}
+
+body#theme-2 section.input .inputs {
+  background-color: #d1cccc;
+}
+
+body#theme-2 .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+body#theme-2 .attribution a {
+  color: #afb9e4;
+}
+
+body#theme-3 {
+  background-color: #160628;
+  -webkit-transition: 300ms ease-in-out;
+  transition: 300ms ease-in-out;
+}
+
+body#theme-3 button {
+  color: #ffe53d;
+}
+
+body#theme-3 button:hover {
+  opacity: 0.5;
+}
+
+body#theme-3 button:focus {
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
+}
+
+body#theme-3 .calc-btn {
+  background-color: #341c4f;
+  -webkit-box-shadow: 0px 4px 3px 0px #871c9c;
+          box-shadow: 0px 4px 3px 0px #871c9c;
+}
+
+body#theme-3 .btn-blue {
+  background-color: #58077d;
+  -webkit-box-shadow: 0px 4px 3px 0px #bc15f4;
+          box-shadow: 0px 4px 3px 0px #bc15f4;
+  color: #ffe53d;
+}
+
+body#theme-3 .btn-red {
+  background-color: #00e0d1;
+  -webkit-box-shadow: 0px 4px 3px 0px #6cf9f2;
+          box-shadow: 0px 4px 3px 0px #6cf9f2;
+  color: #1b2428;
+}
+
+body#theme-3 section.header {
+  color: #ffe53d;
+}
+
+body#theme-3 section.header .theme-select {
+  background: #1d0934;
+}
+
+body#theme-3 section.header .theme-circle {
+  background-color: #00e0d1;
+}
+
+body#theme-3 section.input #display output {
+  background-color: #1d0934;
+  color: #ffe53d;
+}
+
+body#theme-3 section.input .inputs {
+  background-color: #1d0934;
+}
+
+body#theme-3 .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+body#theme-3 .attribution a {
+  color: #afb9e4;
+}
+/*# sourceMappingURL=theme.css.map */

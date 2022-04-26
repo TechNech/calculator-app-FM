@@ -1,0 +1,200 @@
+@import "variables";
+
+body#theme-1 {
+  background-color: $mainBackground;
+  transition: 300ms ease-in-out;
+  button {
+    color: $darkgreyBlue;
+    transition: 200ms ease-in;
+
+    &:hover {
+      opacity: 0.5;
+    }
+
+    &:focus {
+      transform: translateY(2px);
+    }
+  }
+
+  .calc-btn {
+    background-color: $keyBackground;
+    box-shadow: 00px 4px 3px 0px $keyShadow;
+  }
+
+  .btn-blue {
+    background-color: $delKeyBackground;
+    box-shadow: 00px 4px 3px 0px $delKeyShadow;
+    color: $White;
+  }
+
+  .btn-red {
+    background-color: $equalKeyToggle;
+    box-shadow: 00px 4px 3px 0px $equalKeyShadow;
+    color: $White;
+  }
+
+  section.header {
+    color: $White;
+
+    .theme-select {
+      background: $secondaryBackground;
+    }
+
+    .theme-circle {
+      background-color: $equalKeyToggle;
+    }
+  }
+
+  section.input {
+    #display {
+      output {
+        background-color: $secondaryBackground;
+        color: $White;
+      }
+    }
+
+    .inputs {
+      background-color: $secondaryBackground;
+    }
+  }
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+
+    a {
+      color: hsl(228, 50%, 79%);
+    }
+  }
+}
+
+body#theme-2 {
+  background-color: $mainBackground2;
+  transition: 300ms ease-in-out;
+  button {
+    color: $darkgreyBlue2;
+    &:hover {
+      opacity: 0.5;
+    }
+
+    &:focus {
+      transform: translateY(2px);
+    }
+  }
+
+  .calc-btn {
+    background-color: $keyBackground2;
+    box-shadow: 00px 4px 3px 0px $keyShadow2;
+  }
+
+  .btn-blue {
+    background-color: $delKeyBackground2;
+    box-shadow: 00px 4px 3px 0px $delKeyShadow2;
+    color: $White2;
+  }
+
+  .btn-red {
+    background-color: $equalKeyToggle2;
+    box-shadow: 00px 4px 3px 0px $equalKeyShadow2;
+    color: $White2;
+  }
+
+  section.header {
+    color: $darkgreyBlue2;
+
+    .theme-select {
+      background: $secondaryBackground2;
+    }
+
+    .theme-circle {
+      background-color: $equalKeyToggle2;
+    }
+  }
+
+  section.input {
+    #display {
+      output {
+        background-color: $secondaryBackground2;
+        color: $White2;
+      }
+    }
+
+    .inputs {
+      background-color: $secondaryBackground2;
+    }
+  }
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+
+    a {
+      color: hsl(228, 50%, 79%);
+    }
+  }
+}
+body#theme-3 {
+  background-color: $mainBackground3;
+  transition: 300ms ease-in-out;
+  button {
+    color: $yellow;
+    &:hover {
+      opacity: 0.5;
+    }
+
+    &:focus {
+      transform: translateY(2px);
+    }
+  }
+
+  .calc-btn {
+    background-color: $keyBackground3;
+    box-shadow: 00px 4px 3px 0px $keyShadow3;
+  }
+
+  .btn-blue {
+    background-color: $delKeyBackground3;
+    box-shadow: 00px 4px 3px 0px $delKeyShadow3;
+    color: $yellow;
+  }
+
+  .btn-red {
+    background-color: $equalKeyToggle3;
+    box-shadow: 00px 4px 3px 0px $equalKeyShadow3;
+    color: $darkgreyBlue3;
+  }
+
+  section.header {
+    color: $yellow;
+
+    .theme-select {
+      background: $secondaryBackground3;
+    }
+
+    .theme-circle {
+      background-color: $equalKeyToggle3;
+    }
+  }
+
+  section.input {
+    #display {
+      output {
+        background-color: $secondaryBackground3;
+        color: $yellow;
+      }
+    }
+
+    .inputs {
+      background-color: $secondaryBackground3;
+    }
+  }
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+
+    a {
+      color: hsl(228, 50%, 79%);
+    }
+  }
+}
